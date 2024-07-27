@@ -1,0 +1,302 @@
+/* all */
+/* *{ background-color: rgb(233, 222, 222); */
+    
+
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.nav-00{
+    color: orangered;
+    font-weight:bolder;
+    font-size:x-large;
+}
+.nav-01{
+    display: flex;
+    gap: 0px 30px ;
+    border: 2px solid;
+    border-color:  rgb(105, 104, 104);
+    border-radius: 90px;
+    padding: 0px 0px;
+    align-items: center;
+    color: rgb(35, 36, 37);
+}
+.nav-01-01{
+    background-color: orange;
+    border-radius: 28px;
+    padding:9px 19px ;
+    margin: 0px;
+}
+.nav-01-02{
+    padding:9px 19px ;
+    margin: 0px;
+    border-radius: 17px;
+}
+/* head */
+
+.banner{ display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20%;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+}
+/* section-0 */
+
+.sec-0{
+    text-align: center;
+    margin: 40px;
+}
+.sec-0-2{
+     display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+
+.se-0-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+/* section-01 */
+.sec-01{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sec-01-img{
+    height: 56%;
+    width: 39%;
+    border-radius: 7px;
+    
+}
+/* section-01 */
+
+.sec-02-00{
+    border: 2px solid wheat;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+
+.sec-02-1{border: 2px solid wheat;
+      background-image:url(images/exercise1.jpg) ;
+      background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+     
+
+}
+.sec-02-2{
+
+    border: 2px solid wheat;
+
+    background-image:url(images/exercise2.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+    padding: 60px;
+
+}
+.sec-02-3{
+    border: 2px solid wheat;
+    background-image:url(images/exercise3.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-02-4{
+    border: 2px solid wheat;
+    background-image:url(images/exercise4.png);background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+    
+    padding: 60px;
+}
+.sec-02-5{
+    border: 2px solid wheat;
+    background-image:url(images/ );
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+
+}
+.sec-02-6{
+    border: 2px solid wheat;
+    background-image:url(images/exercise6.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+
+/* section-04 */
+.sec-04{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+.sec-04-01{
+    border: 3px solid orange;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+ /* section-05 */
+ .sec-05-01{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: ;
+    
+    column-gap: 60px;
+    row-gap: 40px;
+ }
+.sec-05-01-0{
+    background-image: url(images/trainer1.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-05-01-1{
+    background-image: url(images/trainer2.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-05-01-2{
+    background-image: url(images/trainer3.png);background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-05-01-3{
+    background-image: url(images/trainer4.png);background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-05-01-4{
+    background-image: url(images/trainer5.png);background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+.sec-05-01-5{
+    background-image: url(images/trainer6.png);background-size:contain ;
+    background-repeat: no-repeat;
+    
+    height: 218px;
+    width: 245px;
+    border-radius: 8px;
+}
+
+.sec-005{
+    
+}
+/* footer */
+.foot{
+    padding: 90px 90px 0 90px;
+    margin-top: 30px;
+    background-color: darkgray;
+   
+
+}
+.foot-div{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    
+    
+   
+}
+.ft-div-0{
+    display:grid;
+    text-decoration: none;
+}
+.ft-div-0-0{
+    display:grid;
+    text-decoration: none;
+    color: black;
+}
+
+.ft-div-02{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .banner{ display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20%;
+        margin: 30px;
+        padding: 20px;
+        align-items: center;
+    }
+
+
+    .sec-01{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sec-0-2{
+        display: grid; 
+       grid-template-columns: repeat(1, 1fr); 
+       margin: 30px;
+   }
+   .foot-div{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 20px;
+    
+    
+    border: 5px solid black;
+}
+
+}
+
+
