@@ -296,7 +296,19 @@
     
     border: 5px solid black;
 }
-
+.sec-04{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .sec-05-01{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-image: ;
+        
+        column-gap: 60px;
+        row-gap: 40px;
+     }
 }
+
 
 
