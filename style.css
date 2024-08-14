@@ -1,7 +1,6 @@
-/* all */
-/* *{ background-color: rgb(233, 222, 222); */
+*{ background-color: #141414;
     
-
+}
 /* nav */
 .nav{
     display: flex;
@@ -9,6 +8,8 @@
     margin: 30px;
     padding: 20px;
     align-items: center;
+
+    
 }
 .nav-00{
     color: orangered;
@@ -23,7 +24,7 @@
     border-radius: 90px;
     padding: 0px 0px;
     align-items: center;
-    color: rgb(35, 36, 37);
+    color: #FFFFFF;
 }
 .nav-01-01{
     background-color: orange;
@@ -44,186 +45,175 @@
     margin: 30px;
     padding: 20px;
     align-items: center;
+    border:2px solid tomato;
+}
+.ban-h{
+    color: #FFFFFF;
+}
+.ban-000{
+    background-color: rgb(156, 80, 26);
+    border-radius: 50px;
+}
+.banner-02{ 
+    position: relative;
+    border:2px solid tomato;
+
+}
+.sec-01-00{
+    position:absolute;
+    bottom:40px;
+    
+}
+.sec-01-01{
+    position:absolute;
+    top:120px;
+    right: 140px;
+    border-radius: 7%;
+    padding:20px;
+    color: blue;
+}
+#body{
+    background-color: #141414;
 }
 /* section-0 */
 
 .sec-0{
     text-align: center;
-    margin: 40px;
+    margin:50px 150px;
+    border:2px solid tomato;
+   
+}
+.sec-0-1{
+     padding: 0px 50px 20px 50px;
+    border:2px solid tomato;
 }
 .sec-0-2{
      display: grid; 
     grid-template-columns: repeat(4, 1fr); 
+    border:2px solid tomato;
 }
 
 
 .se-0-img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 100px;
 }
 /* section-01 */
 .sec-01{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    text-align: center;
+    margin:50px 150px;
+  
+    border-radius: 18px;
+    padding: 30px;
+    background-color: rgb(34, 34, 34);
+}
+.sec-h-00-0{
+    color: rgb(255, 255, 255);
+}
+.sec-p-00-0{
+   color:rgba(255, 255, 255, 0.5);
+
+}
+.sec-b-00-0{
+    background-color: rgb(230, 83, 60);
+      color: #FFFFFF;
+      padding: 10px 40px;
+      border-radius: 12px;
+      font-size:medium;
+      
+}
+.sec-div{
+    text-align: left;
 }
 
 .sec-01-img{
-    height: 56%;
-    width: 39%;
-    border-radius: 7px;
+    position:relative;
+    left: 0px;
+    size: cover;
+    height: 266px;
+    width: 242px;
+    border-radius: 17px;
+    
+    
+
     
 }
-/* section-01 */
+/* section-03 */
 
-.sec-02-00{
-    border: 2px solid wheat;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
+.sec-03{
+    text-align: center;
 }
-
-.sec-02-1{border: 2px solid wheat;
-      background-image:url(images/exercise1.jpg) ;
-      background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-     
-
-}
-.sec-02-2{
-
-    border: 2px solid wheat;
-
-    background-image:url(images/exercise2.png);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-    padding: 60px;
-
-}
-.sec-02-3{
-    border: 2px solid wheat;
-    background-image:url(images/exercise3.png);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-}
-.sec-02-4{
-    border: 2px solid wheat;
-    background-image:url(images/exercise4.png);background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-    
-    padding: 60px;
-}
-.sec-02-5{
-    border: 2px solid wheat;
-    background-image:url(images/ );
-    background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-
-}
-.sec-02-6{
-    border: 2px solid wheat;
-    background-image:url(images/exercise6.jpg);
-    background-size:contain ;
-    background-repeat: no-repeat;
-    
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
-}
-
 /* section-04 */
 .sec-04{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 150px;
+    padding: 20px 70px;
+    background-color: rgb(34, 34, 34);
+    color: white;
     }
 .sec-04-01{
-    border: 3px solid orange;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    
+
+    
 }
  /* section-05 */
+ .sec-05{
+    text-align: center;
+    border:2px solid tomato;
+    margin: 25px 50px;
+ }
+ .table-sec{
+    border-color: aqua;
+ }
  .sec-05-01{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    background-image: ;
+    display:flex;
     
-    column-gap: 60px;
-    row-gap: 40px;
+   
+
+    
+   
+  
  }
 .sec-05-01-0{
     background-image: url(images/trainer1.png);
-    background-size:contain ;
-    background-repeat: no-repeat;
     
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
+    
+   
 }
 .sec-05-01-1{
     background-image: url(images/trainer2.png);
-    background-size:contain ;
-    background-repeat: no-repeat;
     
-    height: 218px;
-    width: 245px;
-    border-radius: 8px;
+  
 }
 .sec-05-01-2{
     background-image: url(images/trainer3.png);background-size:contain ;
-    background-repeat: no-repeat;
+   
     
-    height: 218px;
-    width: 245px;
     border-radius: 8px;
 }
 .sec-05-01-3{
     background-image: url(images/trainer4.png);background-size:contain ;
-    background-repeat: no-repeat;
+   
     
-    height: 218px;
-    width: 245px;
+    
     border-radius: 8px;
 }
 .sec-05-01-4{
     background-image: url(images/trainer5.png);background-size:contain ;
-    background-repeat: no-repeat;
+  
     
-    height: 218px;
-    width: 245px;
     border-radius: 8px;
 }
 .sec-05-01-5{
     background-image: url(images/trainer6.png);background-size:contain ;
-    background-repeat: no-repeat;
     
-    height: 218px;
-    width: 245px;
+  
     border-radius: 8px;
 }
 
@@ -231,20 +221,25 @@
     
 }
 /* footer */
-.foot{
+*>.foot{
     padding: 90px 90px 0 90px;
     margin-top: 30px;
-    background-color: darkgray;
+    background-color:#141414;
+    text-decoration: none;
    
 
 }
 .foot-div{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    
-    
+    column-gap: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    padding:0px 190px 10px 190px;
+
    
+}
+.ft-h{
+    color: rgb(230, 83, 60);
 }
 .ft-div-0{
     display:grid;
@@ -253,14 +248,30 @@
 .ft-div-0-0{
     display:grid;
     text-decoration: none;
-    color: black;
+    color:wheat;
 }
 
 .ft-div-02{
     text-align: center;
-    margin-top: 10px;
+   
+    color:  rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.ft-last{
+    text-decoration: none;
+}
+.last{
+    color: wheat;
+}
+.harf{
+    padding: 0px 100px;
+    color: rgba(255, 255, 255, 0.5);
+
 }
 
+.para{
+    color: rgba(255, 255, 255, 0.5); 
+}
 
 
 
