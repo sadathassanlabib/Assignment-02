@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
+<header class="header">
     <nav class="nav">
         <div class="nav-00"><i>Fitness</i></div>
         <div class="nav-01">
@@ -18,35 +18,35 @@
     </nav>
     <banner class="banner">
         <div>
-            <h1 class="ban-h">Get body in <br><span>shape</span> & stay<br>
+            <h1 class="ban-h" class="big-l">Get body in <br><span class="font-al">shape</span> & stay<br>
                 healthy</h1>
             <p class="para">A huge selection of health and fitness content, healthy recipes
                 and transformation stories to help you get fit and stay fit! </p>
-            <button> Join Club Now!</button>
-            <button>Download App</button>
+            <button class="nv-bt"> Join Club Now!</button>
+            <button class="nv-btn">Download App</button>
         </div>
         <div class="banner-02">
             <div>
-                <div>
+                <div class="sec-01-00">
                     <div class="ban-000">
                         
                     </div>
-                    <div class="sec-01-00">
-                        <h2>350+</h2>
-                        <p>Video tutorial</p>
+                    <div>
+                        <h2 class="ban-h">350+</h2>
+                        <p class="para">Video tutorial</p>
                     </div>
                 </div>
                 <div>
                     <img src="images/Images 2.png" alt="">
                 </div>
                 <div class="sec-01-01">
-                    <h2>500+</h2>
-                    <p>Free Workout Videos</p>
+                    <h2  class="ban-h">500+</h2>
+                    <p class="para">Free Workout Videos</p>
                 </div>
         </div>
     </banner>
 </header>
-<body>
+<body bgcolor="black">
     <section class="sec-0">
         <div class="sec-0-1">
             <h1 class="ban-h">Change Your Habits</h1>
@@ -104,24 +104,24 @@
                 <h1>BMI Calculator Chart</h1>
             </div>
             <div class="sec-04-01">
-               <table border="1px solid "  class="para"> 
+               <table border=""   class="table00"> 
                    <tr>
-                    <th> BMI </th>
-                    <th>Weight Status  </th>
+                    <td class="btn-h"  class="thh"> BMI </td>
+                    <td class="btn-h" class="thh">Weight Status  </td>
                    </tr>
-                   <tr>
+                   <tr class="para">
                     <td>Below 18.5</td>
                     <td>Underweight</td>
                    </tr>
-                   <tr>
+                   <tr class="para">
                     <td>18.5-24.9</td>
                     <td>Healthy</td>
-                   </tr>
-                   <tr>
+                   </tr class="para">
+                   <tr class="para">
                     <td>25.0-29.9</td>
                     <td>Overweight</td>
                    </tr>
-                   <tr>
+                   <tr class="para">
                     <td>30.0 and Above</td>
                     <td>Obese</td>
                    </tr>
@@ -136,62 +136,126 @@
                 <p  class="para">We believe fitness should be accessible to everyone, everywhere, regardless of
                     income or access to a gym. </p>
             </div>
-            <div> 
-                    <input type="text" placeholder="Height/cm">
-                    <input type="text" placeholder="Weight/kg">
-                    <input type="text" placeholder="Age">
-                    <input type="text" placeholder="Sex">
-                    <input type="text" placeholder="Select an activity factor">
+            <div class="sec-04-input"> 
+                <div class="input-div"> <input type="text" placeholder="Height/cm" class="singel-input">
+                    <input type="text" placeholder="Weight/kg"  class="singel-input"></div>
+                   <div class="input-div"> <input type="text" placeholder="Age"  class="singel-input">
+                   <input type="select"  placeholder="Sex"  class="singel-input"></div>
+                   <div class="input-div"> <input type="option" placeholder="Select an activity factor"  class="singel-input"></div>
             </div>
             <div>
-                <button>Calculate</button>
+                <button class="btn-sec-04">Calculate</button>
             </div>
         </div>
     
+    </section>
+    <section class=" sec-4-5">
+        <h1 class="ban-h">Meet Our Team</h1>
+            <p class="para">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
     </section>
 
     <section class="sec-05">
-        <div>
-            <h1 class="ban-h">Meet Our Team</h1>
-            <p  class="para">We believe fitness should be accessible to everyone, everywhere, regardless of income or
-                access to a gym.</p>
+        <div class="container">
+            
+            
+              <div class="team-member">
+                <img  class="trainer-image" src="./images/trainer1.png" alt="Jerome Bell" width="100%" height="100%" >
+                <div class="trainer">
+                    <h3 class="ban-h">Jerome Bell</h3>
+                    <p class="para">Trainer</p>
+                </div>
+               
+              </div>
+              <div class="team-member">
+                <img class="trainer-image"  src="./images/trainer2.png" alt="Cameron Williamson" width="100%" height="100%"  >
+                <div class="trainer">
+                    <h3 class="ban-h">Cameron Williamson</h3>
+                    <p class="para">Trainer</p>
+                </div>
+                
+              </div>
+              <div class="team-member">
+                <img class="trainer-image"  src="./images/trainer3.png" alt="Darrell Steward" width="100%" height="100%"  >
+                
+               
+                <div class="trainer">
+                    <h3 class="ban-h">Darrell Steward</h3>
+                    <p class="para">Trainer</p>
+                </div>
+
+              </div>
+              <div class="team-member">
+                <img class="trainer-image"  src="./images/trainer4.png" alt="Dianne Russell" width="100%" height="100%"  >
+                <div class="trainer">
+                    <h3 class="ban-h">Dianne Russell</h3>
+                    <p class="para">Trainer</p>
+                </div>
+
+                
+              </div>
+              <div class="team-member">
+                <img class="trainer-image"  src="./images/trainer5.png" alt="Cody Fisher" width="100%" height="100%"  >
+                <div class="trainer">
+                    <h3 class="ban-h">Cody Fisher</h3>
+                    <p class="para">Trainer</p>
+                </div>
+
+                
+              </div>
+              <div class="team-member">
+                <img class="trainer-image"  src="./images/trainer6.png" alt="Theresa Webb" width="100%" height="100%"  >
+                <div class="trainer">
+                    <h3 class="ban-h">Theresa Webb</h3>
+                    <p class="para">Trainer</p>
+                </div>
+                
+              </div>
+            
+          </div>
+    </section>
+    <section class="section-extra">
+        <div class="sec-extra-div-00">
+            <h4 class="ban-h">Our Transformative Programs</h4>
+            <p class="para">We provide that  you great dell, We hope you enjoy our dell and go forword quickly you and everybody</p>
         </div>
-        <div class="sec-05-01">
-           <div>
-            <div class="sec-05-01-0 ">
-               Jerome Bell
-                Trainer
-            </div>
-            <div class="sec-05-01-1">
-                <div><h3>Cameron Williamson</h3></div>
-                <div><p>Trainer</p></div>
-            </div>
-            <div class="sec-05-01-2">
-                <h3>Darrell Steward
-                <p>Trainer
-            </div>
-        </div> 
-        <div>  
-            <div class="sec-05-01-3">
-                <h3>Dianne Russell</h3>
-                <p>Trainer</p>
-            </div>
-            <div class="sec-05-01-4">
-                <h3>Cody Fisher</h3>
-                <p>Trainer</p>
-            </div>
-            <div class="sec-05-01-5">
-                <h3>Theresa Webb</h3>
-                <p>Trainer</p>
-            </div>
-         </div> 
+        <div class="sec-extra-div-000">
+        <div class="sec-extra-div-001">
+            <h5 class="ban-h">Online Traning with coach</h5>
+            <p class="para">One of the biggest advantages of online personal training is you often have more freedom when scheduling training sessions than you would in a gym. If you have a lot of family and work commitments, it can be difficult to fit a gym session into your schedule.</p>
+            <button class="sec-extra-btn">Join Now</button>
+        </div>
+        <div class="sec-extra-div-001">
+            <h5 class="ban-h">Nutration Plan</h5>
+            <p class="para">1.Figure out how many calories you need to eat each day to maintain your weight. <br>
+                2.Aim to eat between 10 and 35 percent of your daily calories from protein. <br>
+                Write down healthy sources of fiber to incorporate in your nutrition plan, such as fruits, vegetables, beans and whole-grains.
+                </p>
+            <button class="sec-extra-btn">Join Now</button>
+        </div>
+        <div class="sec-extra-div-001">
+            <h5 class="ban-h">Personal daily routine</h5>
+            <p class="para">1. List to-do items. Before you can organize your to-dos, you first need to make a list of all the items you need to do for the day. <br>
+                2.Prioritize tasks. <br>
+                3.Note deadlines. <br>
+                4.Identify recurring events. <br>
+                5.Order items by time, priority, or deadline. <br>
+                6.Stay flexible.</p>
+            <button class="sec-extra-btn">Join Now</button>
+        </div>
+        <div class="sec-extra-div-001">
+            <h5 class="ban-h">Parsonal callorie counter</h5>
+            <p class="para">Having a daily record of everything you eat and drink can make it a lot easier to keep track of your calorie intake. Try it for a week or 2 to get a good idea of how many calories you're consuming and continue to keep a food diary if you find it useful.</p>
+            <button class="sec-extra-btn"> Join Jow</button>
+        </div>
         </div>
     </section>
 
-
     
     
-</body>
+</body >
 <footer class="foot">
    <div class="foot-div">
     <div>
@@ -213,10 +277,10 @@
     <div class="ft-div-0" >
         <div class="ban-h"><h3>Get Started</h3></div>
         <div class="ft-div-0-0">
-        <a href="">Fitness </a>
-        <a href=""> Platform</a>
-        <a href="">Workout Libary</a>
-        <a href="">App Design</a>
+        <a href="" class="ft-last">Fitness </a>
+        <a href="" class="ft-last"> Platform</a>
+        <a href="" class="ft-last">Workout Libary</a>
+        <a href="" class="ft-last">App Design</a>
         </div>
     </div>
 </div>

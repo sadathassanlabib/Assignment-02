@@ -1,5 +1,10 @@
-*{ background-color: #141414;
+*{ background-color: 
     
+}
+/* header */
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    margin: 0px;
 }
 /* nav */
 .nav{
@@ -10,6 +15,14 @@
     align-items: center;
 
     
+}
+.nv-bt{
+     background-color: rgb(230, 83, 60);
+      color: #FFFFFF;
+      padding: 10px 40px;
+      border-radius: 20px;
+      font-size:medium;
+      
 }
 .nav-00{
     color: orangered;
@@ -45,32 +58,72 @@
     margin: 30px;
     padding: 20px;
     align-items: center;
-    border:2px solid tomato;
+    
 }
 .ban-h{
     color: #FFFFFF;
 }
+.big-l{
+    font-size: 978px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+}
+
 .ban-000{
-    background-color: rgb(156, 80, 26);
+    background-color: rgb(199, 95, 21);
+    height: 40px;
+    width: 40px;
     border-radius: 50px;
+}
+.font-al{  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+
+}
+.nv-btn{background-color: rgb(17, 17, 17);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size:medium;
+
 }
 .banner-02{ 
     position: relative;
-    border:2px solid tomato;
+    
 
 }
 .sec-01-00{
     position:absolute;
     bottom:40px;
+    left:-60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 9px;
+    box-sizing: ;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
     
 }
 .sec-01-01{
     position:absolute;
     top:120px;
-    right: 140px;
-    border-radius: 7%;
-    padding:20px;
-    color: blue;
+    right: 100px;
+   padding: 2px 6px;
+
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+
+
 }
 #body{
     background-color: #141414;
@@ -80,17 +133,18 @@
 .sec-0{
     text-align: center;
     margin:50px 150px;
-    border:2px solid tomato;
+    
    
 }
 .sec-0-1{
      padding: 0px 50px 20px 50px;
-    border:2px solid tomato;
+    
 }
 .sec-0-2{
      display: grid; 
     grid-template-columns: repeat(4, 1fr); 
-    border:2px solid tomato;
+    column-gap: 16px;
+   
 }
 
 
@@ -123,7 +177,7 @@
     background-color: rgb(230, 83, 60);
       color: #FFFFFF;
       padding: 10px 40px;
-      border-radius: 12px;
+      border-radius: 20px;
       font-size:medium;
       
 }
@@ -136,7 +190,7 @@
     left: 0px;
     size: cover;
     height: 266px;
-    width: 242px;
+    width: 100%;
     border-radius: 17px;
     
     
@@ -162,70 +216,120 @@
 
     
 }
+.thh{
+    padding: 20px;
+}
+.sec-04-input{
+    
+position:static;
+
+
+display: flex;
+ flex-direction:column;
+ align-items: flex-start;
+ gap: 2px;
+ 
+
+}
+.singel-input{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin:2px;
+    border-radius: 12px;
+    padding: 12px;
+    height: 10px;
+    
+   
+   
+}
+
+.input-div{
+}
+.btn-sec-04{  background-color: rgb(230, 83, 60);
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size:medium;
+    margin: 15px;
+    direction: none;
+    
+}
+
+.table00{
+    border-collapse: collapse;
+    
+    height: 180px;
+   
+    
+}
  /* section-05 */
- .sec-05{
+ 
+    
+
+
+ .sec-4-5 {text-align: center;
+    margin: 60px;
+ }
+ 
+.sec-05{
+    margin:50px 150px;
+  
+    border-radius: 18px;
+    padding: 30px;
+    background-color: rgb(34, 34, 34);
+}
+
+    .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+gap: 12px;
+position: relative;
+    
+   
+}
+
+
+.team-member{
+    position: relative;
+}
+.trainer{
+    position: absolute;
+    bottom:0px
+}
+.trainer-image{
+    border-radius: 18px;
+}
+    
+ 
+/* section extra */
+.section-extra{
     text-align: center;
-    border:2px solid tomato;
-    margin: 25px 50px;
- }
- .table-sec{
-    border-color: aqua;
- }
- .sec-05-01{
-    display:flex;
-    
-   
+    margin:50px 150px;
+  
+    border-radius: 18px;
+    padding: 30px;
 
-    
-   
-  
- }
-.sec-05-01-0{
-    background-image: url(images/trainer1.png);
-    
-    
-   
 }
-.sec-05-01-1{
-    background-image: url(images/trainer2.png);
+.sec-extra-div-000{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 12px;
+    
+}
+.sec-extra-div-001{
     
   
-}
-.sec-05-01-2{
-    background-image: url(images/trainer3.png);background-size:contain ;
-   
-    
-    border-radius: 8px;
-}
-.sec-05-01-3{
-    background-image: url(images/trainer4.png);background-size:contain ;
-   
-    
-    
-    border-radius: 8px;
-}
-.sec-05-01-4{
-    background-image: url(images/trainer5.png);background-size:contain ;
-  
-    
-    border-radius: 8px;
-}
-.sec-05-01-5{
-    background-image: url(images/trainer6.png);background-size:contain ;
-    
-  
-    border-radius: 8px;
-}
+    border-radius: 18px;
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
 
-.sec-005{
-    
 }
 /* footer */
-*>.foot{
+.foot{
     padding: 90px 90px 0 90px;
     margin-top: 30px;
     background-color:#141414;
     text-decoration: none;
+    
    
 
 }
@@ -259,6 +363,7 @@
 }
 .ft-last{
     text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
 }
 .last{
     color: wheat;
